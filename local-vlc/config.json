@@ -1,0 +1,25 @@
+{
+    "name": "Local VLC",
+    "version": "14",
+    "slug": "local_vlc",
+    "description": "Play multimedia locally using VLC player",
+    "url": "",    
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "application",
+    "boot": "auto",
+    "options": {
+        "telnet-password": "a-secure.password",
+        "http-password": "a-secure.password"
+    },    
+    "schema": {
+        "telnet-password": "str",
+        "http-password": "str"
+    },
+    "audio": true,
+    "ports":{
+        "9892/tcp":9892,
+        "4212/tcp":4212
+    },
+    "webui": "http://[HOST]:[PORT:9892]/",
+    "map": ["share:r", "ssl"]
+  }
