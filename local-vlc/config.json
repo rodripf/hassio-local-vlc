@@ -3,7 +3,7 @@
     "version": "14",
     "slug": "local_vlc",
     "description": "Play multimedia locally using VLC player",
-    "url": "",    
+    "url": "https://github.com/rodripf/hassio-local-vlc",    
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
     "boot": "auto",
@@ -21,5 +21,5 @@
         "4212/tcp":4212
     },
     "webui": "http://[HOST]:[PORT:9892]/",
-    "map": ["share:r", "ssl"]
+    "map": ["share:ro", "ssl"]
   }
