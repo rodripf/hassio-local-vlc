@@ -1,6 +1,6 @@
 {
     "name": "Local VLC",
-    "version": "14",
+    "version": "16",
     "slug": "local_vlc",
     "description": "Play multimedia locally using VLC player",
     "url": "https://github.com/rodripf/hassio-local-vlc",    
@@ -8,12 +8,12 @@
     "startup": "application",
     "boot": "auto",
     "options": {
-        "telnet-password": "a-secure.password",
-        "http-password": "a-secure.password"
+        "telnet_password": "mypassword",
+        "http_password": "mypassword"
     },    
     "schema": {
-        "telnet-password": "str",
-        "http-password": "str"
+        "telnet_password": "str",
+        "http_password": "str"
     },
     "audio": true,
     "ports":{
