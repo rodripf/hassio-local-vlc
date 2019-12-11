@@ -9,6 +9,7 @@ ENV HOME=/home/vlc
 RUN apk update
 RUN apk add --no-cache vlc
 RUN sed -i 's/geteuid/getppid/' /usr/bin/vlc
+RUN sed -i '197s#.*#    dir = dir == undefined ? "file:///share" : dir;#' /usr/share/vlc/lua/http/js/controllers.js
 COPY run.sh /
 RUN chmod a+x /run.sh
 
