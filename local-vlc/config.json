@@ -1,6 +1,6 @@
 {
     "name": "Local VLC",
-    "version": "16",
+    "version": "17",
     "slug": "local_vlc",
     "description": "Play multimedia locally using VLC player",
     "url": "https://github.com/rodripf/hassio-local-vlc",    

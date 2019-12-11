@@ -6,7 +6,7 @@ Control it using the web interface or with the new [VLC Telnet component](https:
 
 Place your media files on the /share folder in your hass.io or play files from network locations, Internet included! Try for example online radios!
 
-**Current state**: **Fully functional**, getting things tied up together to contribute formally to the hassio community!
+**Current state**: **Fully functional**
 
 ## Installation
 1. Follow the steps on [this tutorial](https://www.home-assistant.io/hassio/installing_third_party_addons/) to add this repository (https://github.com/rodripf/hassio-local-vlc) to your hassio installation.
